@@ -1,0 +1,12 @@
+{
+  "name": "native-mine",
+  "displayName": "native-mine",
+  "expo": {
+    "name": "native-mine",
+    "slug": "native-mine",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
