@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
   },
   line: {
     position: 'absolute',
+    alignSelf: 'center',
     height: 3,
     width: 15,
     borderRadius: 3,
