@@ -8,16 +8,16 @@ const params = {
   difficultLevel: 0.1,
 
   getColumnsAmount() {
-    const { width } = Dimensions.get('window');
+    const totalWidth = Dimensions.get('window').width;
 
-    return Math.floor(width / this.blockSize);
+    return Math.floor(totalWidth / this.blockSize) - 1;
   },
 
   getRowsAmount() {
     const totalHeight = Dimensions.get('window').height;
     const boardeHeight = totalHeight * (1 - this.headerRatio);
 
-    return Math.floor(boardeHeight / this.blockSize);
+    return Math.floor(boardeHeight / this.blockSize) - 1;
   },
 };
 
